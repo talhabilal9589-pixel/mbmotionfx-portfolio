@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>After Effects Motion Designer for Agencies</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="logo">MB MotionFX</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Work</a>
+    <a href="#contact" class="cta">Hire Me</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero reveal">
+  <h1>After Effects Motion Designer<br>for Agencies & Creative Teams</h1>
+  <p>
+    I help agencies deliver motion graphics, cartoon animation, HUD elements,
+    and cinematic 3D text — clean, reliable, and production-ready.
+  </p>
+
+  <div class="buttons">
+    <button class="btn" onclick="openReel()">Watch Showreel</button>
+    <a href="#contact" class="btn outline">Hire for Agency Work</a>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why reveal">
+  <h2>Why Agencies Work With Me</h2>
+  <div class="grid">
+    <div>Clean & organized After Effects files</div>
+    <div>Brand-consistent motion design</div>
+    <div>Fast turnaround & revisions</div>
+    <div>Agency-friendly workflow</div>
+    <div>Comfortable with briefs & styleframes</div>
+    <div>Reliable under deadlines</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about reveal">
+  <h2>Built for Agency Pipelines</h2>
+  <p>
+    I’m a Motion Graphics Designer & Animator specializing in Adobe After Effects.
+    I support agencies with high-quality animation work that fits directly into
+    their production workflow.
+    <br><br>
+    My focus is not just animation — it’s clarity, structure, and reliability.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services reveal">
+  <h2>Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Motion Graphics</h3>
+      <p>Brand motion, promos, intros, social media animations.</p>
+    </div>
+    <div class="card">
+      <h3>Cartoon Animation</h3>
+      <p>Stylized, expressive animation for content & storytelling.</p>
+    </div>
+    <div class="card">
+      <h3>HUD & UI Animation</h3>
+      <p>Futuristic overlays, tech visuals, interface motion.</p>
+    </div>
+    <div class="card">
+      <h3>3D Text Animation</h3>
+      <p>Cinematic typography with depth & camera movement.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio reveal">
+  <h2>Selected Work</h2>
+  <div class="portfolio-grid">
+    <div class="work">Brand Motion Graphics</div>
+    <div class="work">Cartoon Animation</div>
+    <div class="work">HUD & Tech Animation</div>
+    <div class="work">3D Text & Camera Work</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact reveal">
+  <h2>Let’s Work Together</h2>
+  <p>
+    Looking for a reliable After Effects motion designer for your agency?
+    Let’s talk.
+  </p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Project Details"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 MB MotionFX — After Effects Motion Designer
+</footer>
+
+<!-- SHOWREEL MODAL -->
+<div id="reelModal" class="modal">
+  <span class="close" onclick="closeReel()">×</span>
+  <div class="modal-content">
+    <!-- Replace video src -->
+    <video controls autoplay>
+      <source src="showreel.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
